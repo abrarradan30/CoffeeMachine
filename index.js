@@ -6,9 +6,12 @@ console.log("Menuangkan kopi ke dalam gelas");
 console.log("Menuangkan susu ke dalam gelas");
 console.log("Kopi Anda sudah siap!");
 
-const coffeeStock = require('./state.js');
+//const coffeeStock = require('./state.js');
+
+const {coffeeStock, isCoffeeMachineReady} = require('./state.js');
  
 console.log(coffeeStock);
+console.log(isCoffeeMachineReady);
 
 const makeCoffee = (type, miligrams) => {
     if (coffeeStock[type] >= miligrams) {
