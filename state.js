@@ -9,8 +9,12 @@ const isCoffeeMachineReady = true;
 // module.exports = coffeeStock;
 // module.exports = isCoffeeMachineReady; tidak diperbolehkan
 
-module.exports = {coffeeStock, isCoffeeMachineReady};
+// module.exports = {coffeeStock, isCoffeeMachineReady};
 
-console.log(module);
+export {coffeeStock, isCoffeeMachineReady};
+
+// export default coffeeStock;
+
+//console.log(module);
 
  
