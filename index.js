@@ -33,6 +33,7 @@
  
 // displayStock(coffeeStock);
 
+import _ from 'lodash';
 import { coffeeStock as stock, isCoffeeMachineReady } from './state.js';
  
 console.log(stock);
